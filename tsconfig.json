@@ -18,8 +18,8 @@
     "paths": {
       "@app": ["./src/modules/app/index"],
       "@app/*": ["./src/modules/app/*"],
-      "@redux": ["src/modules/app/redux/index"],
-      "@redux/*": ["src/modules/app/redux/*"],
+      "@redux": ["./src/modules/redux/index"],
+      "@redux/*": ["./src/modules/redux/*"],
       "@core/*": ["./src/modules/core/*"],
       "@localization": ["./src/modules/localization/index"],
       "@localization/*": ["./src/modules/localization/*"],
@@ -28,7 +28,9 @@
       "@ui": ["src/modules/app/redux/ui/index"],
       "@ui/*": ["src/modules/app/redux/ui/*"],
       "@pages": ["./src/modules/pages/index"],
-      "@pages/*": ["./src/modules/pages/*"]
+      "@pages/*": ["./src/modules/pages/*"],
+      "@services": ["./src/modules/services/index"],
+      "@services/*": ["./src/modules/services/*"]
     }
   },
   "include": ["./src/**/*"],

@@ -1,4 +1,4 @@
-import { ToastModel } from '@app/redux/ui/models';
+import { ToastModel } from '@app/models';
 
 /**
  * toast state

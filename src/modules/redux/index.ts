@@ -8,7 +8,7 @@ import { sagas } from './sagas';
 import { setupLocalization } from '@localization/store';
 import { Context } from './context';
 import { init } from './router';
-import { HttpService, ApiService } from '@app/services';
+import { ApiService, HttpService } from '@services';
 
 /**
  * Create redux store

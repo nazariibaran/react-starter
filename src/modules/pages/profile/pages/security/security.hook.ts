@@ -1,7 +1,7 @@
 import { useSelector, useDispatch } from 'react-redux';
-import { State } from '@app/redux/state';
 import { useEffect } from 'react';
-import { getSecurityInfo } from '@app/redux/profile';
+import { getSecurityInfo } from '@redux/profile';
+import { State } from '@redux/state';
 import { SecurityInfoModel } from '@pages/profile/models';
 
 const useSecurityData = () => {

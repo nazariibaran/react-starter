@@ -1,8 +1,9 @@
+import { Preloaders } from '@app/models';
+import { preloaderStart, preloaderStop } from '@redux/ui/preloader';
 import { Saga } from 'redux-chill';
-import { getUserInfo, getSecurityInfo, getSettings } from './actions';
 import { put } from 'redux-saga/effects';
-import { preloaderStart, preloaderStop } from '@app/redux/ui/preloader';
-import { Preloaders } from '@app/redux/ui/models';
+import { getSecurityInfo, getSettings, getUserInfo } from './actions';
+
 /**
  * profile saga
  */

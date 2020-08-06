@@ -1,4 +1,4 @@
-import { Modals } from '@app/redux/ui/models';
+import { Modals } from '@app/models';
 
 /**
  * Props

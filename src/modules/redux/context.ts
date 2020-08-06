@@ -1,5 +1,5 @@
 import { History } from 'history';
-import { HttpService, ApiService } from '@app/services';
+import { HttpService, ApiService } from '@services';
 
 /**
  * Sagas context

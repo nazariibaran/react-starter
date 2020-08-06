@@ -3,9 +3,8 @@ import { PreloaderProps } from './preloader.props';
 import * as styles from './preloader.scss';
 import classNames from 'classnames';
 import { useSelector } from 'react-redux';
-import { State } from '@app/redux/state';
 import { exclude } from '@core/shared/utils';
-import { Preloaders } from '@app/redux/ui/models';
+import { State } from '@redux/state';
 
 /**
  * Renders Preloader

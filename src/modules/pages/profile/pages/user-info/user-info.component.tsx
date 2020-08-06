@@ -1,10 +1,10 @@
 import { Field, Form, H1, Preloader } from '@core/components';
 import { userInfoValidationSchema } from 'src/modules/pages/profile/models';
-import { Preloaders } from '@app/redux/ui/models';
 import { Formik } from 'formik';
 import * as React from 'react';
 import { useUserInfoData } from './user-info.hook';
 import * as styles from './user-info.scss';
+import { Preloaders } from '@app/models';
 
 /**
  * Renders UserInfo

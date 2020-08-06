@@ -1,7 +1,7 @@
 import { Payload, Saga } from 'redux-chill';
 import { put, takeEvery, select } from 'redux-saga/effects';
 import { navigate } from './actions';
-import { Context } from '@app/redux/context';
+import { Context } from '@redux/context';
 
 class RouterSaga {
   /**

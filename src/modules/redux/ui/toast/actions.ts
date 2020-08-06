@@ -1,5 +1,5 @@
 import { make } from 'redux-chill';
-import { ToastModel } from '@app/redux/ui/models';
+import { ToastModel } from '@app/models';
 
 /**
  * Toggle toast

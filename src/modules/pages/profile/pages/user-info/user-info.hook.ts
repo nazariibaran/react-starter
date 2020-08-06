@@ -1,8 +1,8 @@
-import { State } from '@app/redux/state';
 import { useSelector, useDispatch } from 'react-redux';
 import { useEffect } from 'react';
-import { getUserInfo } from '@app/redux/profile';
 import { UserInfoModel } from '@pages/profile/models';
+import { State } from '@redux/state';
+import { getUserInfo } from '@redux/profile';
 
 const useUserInfoData = () => {
   const { userInfo } = useSelector((state: State) => state.profile);

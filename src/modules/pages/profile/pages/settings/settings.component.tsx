@@ -1,10 +1,10 @@
 import { H1, Preloader, Form, Field } from '@core/components';
 import * as React from 'react';
 import * as styles from './settings.scss';
-import { Preloaders } from '@app/redux/ui/models';
 import { Formik } from 'formik';
 import { settingsValidationSchema } from 'src/modules/pages/profile/models';
 import { useSettingsData } from './settings.hook';
+import { Preloaders } from '@app/models';
 
 /**
  * Renders Settings

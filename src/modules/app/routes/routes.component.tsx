@@ -1,10 +1,10 @@
-import { State } from '@app/redux/state';
 import { Toast } from '@core/components';
 import { Auth, Home, Profile, Uikit } from '@pages';
 import * as React from 'react';
 import { useSelector } from 'react-redux';
 import { Route } from 'react-router-dom';
 import * as styles from './routes.scss';
+import { State } from '@redux/state';
 
 /**
  * Renders Routes

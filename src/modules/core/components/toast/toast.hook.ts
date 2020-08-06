@@ -1,5 +1,5 @@
 import { useSelector, useDispatch } from 'react-redux';
-import { State } from '@app/redux/state';
+import { State } from '@redux/state';
 
 const useToastData = () => {
   const { toastData } = useSelector((state: State) => state.ui.toast);

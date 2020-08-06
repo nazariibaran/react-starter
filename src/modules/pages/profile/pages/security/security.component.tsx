@@ -1,10 +1,10 @@
 import { Field, Form, H1, Preloader } from '@core/components';
 import { securityInfoValidationSchema } from 'src/modules/pages/profile/models';
-import { Preloaders } from '@app/redux/ui/models';
 import { Formik } from 'formik';
 import * as React from 'react';
 import { useSecurityData } from './security.hook';
 import * as styles from './security.scss';
+import { Preloaders } from '@app/models';
 
 /**
  * Renders Security details

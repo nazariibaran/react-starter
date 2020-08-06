@@ -1,8 +1,8 @@
 import { useDispatch, useSelector } from 'react-redux';
-import { State } from '@app/redux/state';
 import { useEffect } from 'react';
-import { getSettings } from '@app/redux/profile';
 import { SettingsModel } from '@pages/profile/models';
+import { getSettings } from '@redux/profile';
+import { State } from '@redux/state';
 
 const useSettingsData = () => {
   const dispatch = useDispatch();

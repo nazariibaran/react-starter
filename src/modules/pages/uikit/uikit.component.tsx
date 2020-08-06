@@ -22,11 +22,11 @@ import {
 import { useState } from 'react';
 import { Formik } from 'formik';
 import { uikitValidationSchema, UikitFormValues } from './models';
-import { Modals, Preloaders } from '@app/redux/ui/models';
-import { showModal } from '@app/redux/ui/modal';
 import { useDispatch } from 'react-redux';
-import { preloaderStart, preloaderStop } from '@app/redux/ui/preloader';
-import { toggleToast } from '@app/redux/ui/toast';
+import { Preloaders, Modals } from '@app/models';
+import { preloaderStart, preloaderStop } from '@redux/ui/preloader';
+import { showModal } from '@redux/ui/modal';
+import { toggleToast } from '@redux/ui/toast';
 
 /**
  * Renders Uikit

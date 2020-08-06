@@ -1,11 +1,11 @@
-import { startup } from '@app/redux/general';
 import { Localization } from '@localization';
 import * as React from 'react';
 import { useEffect } from 'react';
 import { Provider, useDispatch, useSelector } from 'react-redux';
 import { Router } from 'react-router-dom';
 import { AppProps } from './app.props';
-import { State } from './redux/state';
+import { State } from '@redux/state';
+import { startup } from '@redux/general';
 
 /**
  * App content
