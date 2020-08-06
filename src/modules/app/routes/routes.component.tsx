@@ -1,13 +1,10 @@
-import { Auth } from '@auth';
-import { Profile } from '@profile';
-import { Uikit } from '@uikit';
-import * as React from 'react';
-import { Route } from 'react-router-dom';
-import { Home } from 'src/modules/home';
-import * as styles from './routes.scss';
-import { useSelector } from 'react-redux';
-import { State } from '@app/store/state';
+import { State } from '@app/redux/state';
 import { Toast } from '@core/components';
+import { Auth, Home, Profile, Uikit } from '@pages';
+import * as React from 'react';
+import { useSelector } from 'react-redux';
+import { Route } from 'react-router-dom';
+import * as styles from './routes.scss';
 
 /**
  * Renders Routes

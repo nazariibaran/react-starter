@@ -1,4 +1,4 @@
-import { Preloaders } from '@ui/models';
+import { Preloaders } from '@app/redux/ui/models';
 
 /**
  * Props
